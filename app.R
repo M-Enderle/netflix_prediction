@@ -50,9 +50,6 @@ if(!file.exists(dataset_selection)){
 print("opening dataset....")
 whole_dataset <- read.csv(dataset_selection, header=TRUE, sep=";", fill=TRUE)
 
-print(ncol(whole_dataset))
-print(nrow(whole_dataset))
-
 # shuffle the data set in case its sorted
 dataset <- whole_dataset[sample(nrow(whole_dataset)),]
 
