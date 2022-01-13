@@ -258,3 +258,38 @@ body {
 #button_container {
   position: relative;
 }
+
+#screen_size_warning {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(20,20,20);
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-family: roboto;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#screen_size_warning div {
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  width: 75%;
+}
+
+@media screen and (max-width: 800px) {
+  #screen_size_warning {
+    display: flex;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  #screen_size_warning {
+    display: flex;
+  }
+}
+
