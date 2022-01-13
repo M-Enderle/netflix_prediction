@@ -1,6 +1,6 @@
 
 # install all necessary packages
-list_of_packages <- c("devtools", "shiny", "reticulate", "ANN2", "shinycssloaders", "shinyjs", "tidyverse")
+list_of_packages <- c("devtools", "shiny", "reticulate", "ANN2", "shinycssloaders", "shinyjs", "tidyverse", "svDialogs")
 new_packages <- list_of_packages[!(list_of_packages %in% installed.packages()[, "Package"])]
 if(length(new_packages)){
   install.packages(new_packages)
