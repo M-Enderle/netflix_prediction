@@ -24,7 +24,7 @@ shiny::runGitHub(repo = "THDMoritzEnderle/netflix_prediction", ref="main")
 
 ## Usage
 
-#### Choosing the right dataset
+### Choosing the right dataset
 
 When using the local install, you will be prompted to select a dataset. This might help you choose, which one fits your needs best:
 
@@ -35,7 +35,7 @@ When using the local install, you will be prompted to select a dataset. This mig
 | normal data set | 80 MB  | Best for the average user. Contains 530 movies and 47k users. Balance between accuracy and loading times                    |
 | few movies      | 61 MB  | Only contains 90 movies but 231k customers. This results in very high accuracy but comes at the cost of the few movies.     |
 
-#### What can you do?
+### What can you do?
 
 To start off, select the movies you watched and would like to rate on the top left. The movie posters will appear right next to it. Rate the movies based on your liking. 
 
