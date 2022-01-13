@@ -6,7 +6,7 @@ This project was created for my course assistance systems in cooperation with [F
 
 Our approach simplified the idea by only predicting on one single outcome movie you manually choose.
 
-If you want to try it out now, you can visit out [interactive demo](https://thdmoritzenderle.shinyapps.io/netflix_prediction/).
+If you want to try it out now, you can visit our [interactive demo](https://thdmoritzenderle.shinyapps.io/netflix_prediction/).
 
 ## Installation
 
