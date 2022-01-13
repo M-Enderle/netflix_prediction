@@ -12,7 +12,7 @@ lapply(list_of_packages, library, character.only = TRUE)
 py_install(c("tmdbv3api", "Pillow"), pip=TRUE)
 install_github("AnalytixWare/ShinySky")
 
-source("r_plotter.R")
+source("plotter.R")
 source_python('./utils.py')
 
 # ask for data set
