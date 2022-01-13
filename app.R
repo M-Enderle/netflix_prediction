@@ -6,11 +6,11 @@ if(length(new_packages)){
   install.packages(new_packages)
 }
 
-py_install(c("tmdbv3api", "Pillow"), pip=TRUE)
-install_github("AnalytixWare/ShinySky")
-
 # load all necessary packages
 lapply(list_of_packages, library, character.only = TRUE)
+
+py_install(c("tmdbv3api", "Pillow"), pip=TRUE)
+install_github("AnalytixWare/ShinySky")
 
 source("r_plotter.R")
 source_python('./utils.py')
