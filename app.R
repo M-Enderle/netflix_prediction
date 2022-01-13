@@ -50,6 +50,9 @@ if(!file.exists(dataset_selection)){
 print("opening dataset....")
 whole_dataset <- read.csv(dataset_selection, header=TRUE, sep=";", fill=TRUE)
 
+print(ncol(whole_dataset))
+print(nrow(whole_dataset))
+
 # shuffle the data set in case its sorted
 dataset <- whole_dataset[sample(nrow(whole_dataset)),]
 
@@ -68,6 +71,8 @@ ui <- shinyUI(
     tags$head(
       tags$link(rel = "stylesheet", type = "text/css", href = "style.css"),
     ),
+    
+    div(id="screen_size_warning", div("Please increase your window size. Mobile viewing is not supported.")),
     
     # left panel
     sidebarPanel(id="navigation",
