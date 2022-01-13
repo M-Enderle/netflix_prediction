@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project was created for my course assistance systems in cooperation with [Forian Eder](https://github.com/FlorianEder). The dataset was released by netflix in relation to a competition for the best algorith to predict new movies for users. You can find the dataset [here](https://www.kaggle.com/netflix-inc/netflix-prize-data). 
+This project was created for my course assistance systems in cooperation with [Florian Eder](https://github.com/FlorianEder). The dataset was released by netflix in relation to a competition for the best algorith to predict new movies for users. You can find the dataset [here](https://www.kaggle.com/netflix-inc/netflix-prize-data). 
 
 Our approach simplified the idea by only predicting on one single outcome movie you manually choose.
 
@@ -41,7 +41,7 @@ To start off, select the movies you watched and would like to rate on the top le
 
 Below this input field, you can select your goal movie, this is the movie you want to know the prediction of.
 
-When you selected all movies, press the submit button and the model will start training. This may take a while based on the dataset, your hardware and the amount of movies you selected.
+When you're done selecting and rating all movies, press the submit button and the model will start training. This may take a while based on the dataset, your hardware and the amount of movies you've selected.
 
 When the training is done, you can see the prediction appear on the movie poster in the bottom left corner. The graph shows the influences of each movie.
 
